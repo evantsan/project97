@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Camera</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="camera.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <center>
+            <a href="" id="lins" download="yourselfie.jpg"></a>
+            <h1>CAMERA</h1>
+        <button onclick="sc()" class="btn">Start camera</button>
+        <br>
+        <div id="camera"></div>
+        <h3>YOUR CAPTURED VIEW:</h3>
+        <div id="result"></div>
+        <button onclick="savy()" class="btn btn-success">TAKE PICTURE AND SAVE</button>
+        
+        <br>
+        <button class="btn btn-danger" onclick="bac()">Go back</button>
+            </center>
+            <script src="camera.js"></script>
+    </body>
+</html>
